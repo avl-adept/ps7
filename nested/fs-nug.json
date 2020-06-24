@@ -113,7 +113,6 @@
         },
         "settings": {
           "modulesUrl": "[concat(parameters('modulesURL'),'/AppConfig.ps1.zip')]",
-          "sasToken": "[parameters('SharedVmConfig').SasToken]",
           "wmfVersion": "latest",
           "configurationFunction": "[parameters('configurationFunction').AppConfig]",
           "Properties": {
