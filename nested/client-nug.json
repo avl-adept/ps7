@@ -68,7 +68,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
             "Name": "[parameters('SharedVmConfig').domainName]",
-            "OUPath": "CN=Computers,DC=domain,DC=local",
+            "OUPath": null,
             "Options": "3",
             "Restart": "true",
             "User": "[parameters('SharedVmConfig').domainUserName]"
