@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "configName": {
+      "value": "AVL-PS7"
+    },
+    "domainName": {
+      "value": "nuggetlab.com"
+    },
+    "adminUsername": {
+      "value": ""
+    },
+    "adminPassword": {
+      "value": ""
+    },
+    "vmSize": {
+      "value": "Standard_DS2_v2"
+    },
+    "dnsLabelPrefix": {
+      "value": ""
+    },
+    "_artifactsLocation": {
+        "value": "https://raw.githubusercontent.com/avl-adept/ps7/master"
+    }
+  }
+}
