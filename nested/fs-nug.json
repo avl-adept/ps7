@@ -82,10 +82,10 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
             "Name": "[parameters('SharedVmConfig').domainName]",
-            "OUPath": null,
+            "OUPath": "CN=Computers,DC=domain,DC=local",
             "Options": "3",
             "Restart": "true",
-            "User": "concat(parameters('SharedVmConfig').domainName,'\\',parameters('SharedVmConfig').domainUserName)"
+            "User": "[parameters('SharedVmConfig').domainUserName]"
         },
         "protectedsettings": {
           "Password": "[parameters('SharedVmConfig').adminPassword]"
